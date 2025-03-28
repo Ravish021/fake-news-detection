@@ -9,7 +9,11 @@
    ```sh
    cd ./mayank_code/
    ```
-3. Start the backend server:
+3. Install dependencies:
+   ```sh
+   pip install pandas seaborn matplotlib tqdm nltk numpy wordcloud scikit-learn bayesian-optimization
+   ```
+4. Start the backend server:
    ```sh
    uvicorn app:app --reload
    ```
